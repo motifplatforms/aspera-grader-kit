@@ -6,7 +6,7 @@ authors:
   - family-names: Saran
     given-names: Daljeet
     affiliation: Motif Platforms
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-11-14
 license: MIT
 repository-code: "https://github.com/motifplatforms/aspera-grader-kit"
