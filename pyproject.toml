@@ -5,21 +5,38 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "aspera-grader-kit"
 version = "0.1.0"
-description = "A small pattern for grading the Word, PowerPoint and Excel files that knowledge-work agents produce."
+description = "Grade the Word, PowerPoint and Excel files AI agents produce: inspectors, explainable checks and a JSON rubric."
 readme = "README.md"
 license = {text = "MIT"}
 authors = [{name = "Motif Platforms", email = "dsaran@motifplatforms.com"}]
 requires-python = ">=3.10"
 dependencies = ["lxml>=4.9", "openpyxl>=3.1"]
 keywords = ["llm-evaluation", "ai-agents", "graders", "rubrics", "reward-modeling", "docx", "pptx", "xlsx"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Testing",
+]
 
 [project.optional-dependencies]
 examples = ["python-docx>=1.1"]
 test = ["pytest>=7", "python-docx>=1.1", "python-pptx>=0.6"]
 
 [project.urls]
-Homepage = "https://www.motifplatforms.com"
+Homepage = "https://github.com/motifplatforms/aspera-grader-kit"
+Repository = "https://github.com/motifplatforms/aspera-grader-kit"
+Issues = "https://github.com/motifplatforms/aspera-grader-kit/issues"
 Writing = "https://www.motifplatforms.com/insights"
+Company = "https://www.motifplatforms.com"
 
 [tool.setuptools.packages.find]
 include = ["aspera_grader_kit*"]
