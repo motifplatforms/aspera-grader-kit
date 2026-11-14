@@ -1,6 +1,6 @@
 # aspera-grader-kit
 
-[![tests](https://github.com/motifplatforms/aspera-grader-kit/actions/workflows/tests.yml/badge.svg)](https://github.com/motifplatforms/aspera-grader-kit/actions/workflows/tests.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
+[![tests](https://github.com/motifplatforms/aspera-grader-kit/actions/workflows/tests.yml/badge.svg)](https://github.com/motifplatforms/aspera-grader-kit/actions/workflows/tests.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![PyPI](https://img.shields.io/pypi/v/aspera-grader-kit.svg)](https://pypi.org/project/aspera-grader-kit/) [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 
 A small, readable pattern for grading the files that knowledge-work agents produce: Word memos, PowerPoint decks and
 Excel models.
@@ -18,6 +18,12 @@ output file ──► inspect ──► facts ──► checks ──► results
 ```
 
 ## Quick start
+
+```bash
+pip install aspera-grader-kit
+```
+
+To run the worked example and the tests, clone the repo and install it in editable mode:
 
 ```bash
 pip install -e ".[test]"
