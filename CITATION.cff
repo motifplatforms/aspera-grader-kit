@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "aspera-grader-kit"
+abstract: "A small pattern for grading the Word, PowerPoint and Excel files that knowledge-work AI agents produce: file inspectors, checks that explain themselves, and a JSON rubric."
+authors:
+  - family-names: Saran
+    given-names: Daljeet
+    affiliation: Motif Platforms
+version: 0.1.0
+date-released: 2026-11-14
+license: MIT
+repository-code: "https://github.com/motifplatforms/aspera-grader-kit"
+url: "https://www.motifplatforms.com/insights"
+keywords:
+  - llm-evaluation
+  - ai-agents
+  - graders
+  - rubrics
+  - reward-modeling
