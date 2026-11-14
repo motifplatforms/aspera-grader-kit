@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aspera-grader-kit"
+version = "0.1.0"
+description = "A small pattern for grading the Word, PowerPoint and Excel files that knowledge-work agents produce."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Motif Platforms", email = "dsaran@motifplatforms.com"}]
+requires-python = ">=3.9"
+dependencies = ["lxml>=4.9", "openpyxl>=3.1"]
+keywords = ["llm-evaluation", "ai-agents", "graders", "rubrics", "reward-modeling", "docx", "pptx", "xlsx"]
+
+[project.optional-dependencies]
+examples = ["python-docx>=1.1"]
+test = ["pytest>=7", "python-docx>=1.1", "python-pptx>=0.6"]
+
+[project.urls]
+Homepage = "https://www.motifplatforms.com"
+Writing = "https://www.motifplatforms.com/insights"
+
+[tool.setuptools.packages.find]
+include = ["aspera_grader_kit*"]
