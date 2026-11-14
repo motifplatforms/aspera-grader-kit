@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aspera-grader-kit"
-version = "0.1.0"
+version = "0.1.1"
 description = "Grade the Word, PowerPoint and Excel files AI agents produce: inspectors, explainable checks and a JSON rubric."
 readme = "README.md"
 license = {text = "MIT"}
