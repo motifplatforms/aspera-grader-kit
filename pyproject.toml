@@ -9,7 +9,7 @@ description = "A small pattern for grading the Word, PowerPoint and Excel files 
 readme = "README.md"
 license = {text = "MIT"}
 authors = [{name = "Motif Platforms", email = "dsaran@motifplatforms.com"}]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = ["lxml>=4.9", "openpyxl>=3.1"]
 keywords = ["llm-evaluation", "ai-agents", "graders", "rubrics", "reward-modeling", "docx", "pptx", "xlsx"]
 
