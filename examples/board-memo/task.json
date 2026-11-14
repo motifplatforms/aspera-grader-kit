@@ -1,0 +1,6 @@
+{
+  "id": "board-memo",
+  "format": "docx",
+  "output": "board_memo.docx",
+  "inputs": ["inputs/q3_results.csv"]
+}

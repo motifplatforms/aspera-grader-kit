@@ -1,0 +1,18 @@
+{
+  "title": "Q3 2026 results",
+  "sections": ["Summary", "Risks"],
+  "summary_values": [
+    {"item": "Revenue", "value": "48.2"},
+    {"item": "Gross margin", "value": "61.5"},
+    {"item": "EBITDA", "value": "6.6"}
+  ],
+  "table_rows": [
+    {"item": "Revenue", "value": "48.2", "change": "8.1"},
+    {"item": "Gross margin", "value": "61.5", "change": "1.7"},
+    {"item": "Operating expenses", "value": "22.9", "change": "3.6"},
+    {"item": "EBITDA", "value": "6.6", "change": "43.5"}
+  ],
+  "source": "q3_results.csv",
+  "min_risks": 2,
+  "notes": "Changes: revenue +8.1%, opex +3.6%, EBITDA +43.5% (relative); gross margin +1.7 points."
+}

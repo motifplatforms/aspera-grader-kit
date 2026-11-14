@@ -1,0 +1,11 @@
+{
+  "version": "example-1",
+  "categories": {
+    "requirements": {"label": "Task requirements", "points": 60, "per_item": true},
+    "craft": {"label": "Craft", "points": 40}
+  },
+  "gates": {
+    "missing": "zero",
+    "unreadable": "zero"
+  }
+}
