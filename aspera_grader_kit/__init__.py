@@ -8,4 +8,4 @@ from .grade import grade, render
 from .inspect import inspect
 
 __all__ = ["Check", "Context", "Result", "check", "grade", "render", "inspect"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
